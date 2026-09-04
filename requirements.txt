@@ -1,0 +1,8 @@
+# DILInet — Python dependencies for working with the curated DHLD/DRCD labels.
+# The public repository ships the curated sample identifiers and labels used in
+# the paper (no model code). These libraries cover loading, validating,
+# splitting, and visualizing that tabular label data.
+numpy==2.1.3
+pandas==2.2.3
+scikit-learn==1.5.2
+matplotlib==3.9.2
