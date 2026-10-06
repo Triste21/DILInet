@@ -24,7 +24,7 @@ slide_id,label
 ```
 
 - `slide_id` is the Open TG-GATEs liver-slide identifier. The matching image file is `{slide_id}.svs`.
-- `label` is the etiology. `1` is drug-induced and `0` is spontaneous. Drug-induced injury is the positive class in the reported sensitivity and specificity.
+- `label` is the etiology. `1` is drug-induced and `0` is spontaneous.
 
 Each row is one strictly paired sample: one H&E whole-slide image and one Affymetrix profile from the same animal. No pair is imputed. Compound name, dose, duration, `EXP_ID`, and fold assignment are not columns of these tables; they are recovered from the Open TG-GATEs annotation of the same slide.
 
@@ -36,8 +36,8 @@ Both cohorts are built from paired rat liver slides and Affymetrix profiles in [
 
 | Dataset | Question | Inclusion |
 |---------|----------|-----------|
-| **DHLD** | Can etiology be separated when the diagnosis matches? | Eosinophilic change, swelling, fatty degeneration, or ground glass appearance. If several lesions coexist, the highest-grade lesion is kept. Every lesion type occurs in both etiology groups. A compound need not have a single label. |
-| **DRCD** | Does fusion still help for mechanistically diverse reference compounds? | Drug-induced lesions from WY-14643, ethionamide, methylene dianiline, thioacetamide, ethanol, and vitamin A, together with spontaneous lesions. In this cohort a compound has one label. |
+| **DHLD** | Can etiology be separated when the diagnosis matches? | Slide label: any treatment-related liver finding (`SP_FLG` false) is drug-induced. If every finding is spontaneous, the label follows the highest-grade finding and is spontaneous. A compound need not have a single label. |
+| **DRCD** | Does fusion still help for mechanistically diverse reference compounds? | The same slide rule, then one label per compound: the majority of its slides. More spontaneous slides makes the whole compound spontaneous; more drug-induced slides makes it drug-induced. A minority slide keeps the compound label. |
 
 ### Raw data
 
@@ -60,12 +60,12 @@ The two CSV files identify the samples that enter this protocol. They do not sto
 
 The numbers below are the manuscript results: mean ± sample standard deviation across the five compound-holdout test folds. The decision threshold of each fold is chosen on that fold's validation set.
 
-| Dataset | ACC | BalAcc | weighted F1 | MCC | Sens | Spec |
-|---------|-----|--------|-------------|-----|------|------|
-| DHLD | 0.8138 ± 0.1017 | 0.8356 ± 0.0747 | 0.8113 ± 0.1077 | 0.6756 ± 0.1301 | 0.7379 ± 0.2004 | 0.9333 ± 0.0742 |
-| DRCD | 0.7506 ± 0.1695 | 0.7549 ± 0.1566 | 0.7209 ± 0.2116 | 0.5521 ± 0.2774 | 0.7799 ± 0.3744 | 0.7298 ± 0.2515 |
+| Dataset | ACC | BalAcc | weighted F1 | MCC |
+|---------|-----|--------|-------------|-----|
+| DHLD | 0.8138 ± 0.1017 | 0.8356 ± 0.0747 | 0.8113 ± 0.1077 | 0.6756 ± 0.1301 |
+| DRCD | 0.7506 ± 0.1695 | 0.7549 ± 0.1566 | 0.7209 ± 0.2116 | 0.5521 ± 0.2774 |
 
-DILInet has the highest mean accuracy, balanced accuracy, weighted F1, and Matthews correlation coefficient on both datasets, among seven pathology models and five transcriptomic models trained on the same splits. On DHLD, T-GEM has the highest sensitivity and CLAM-SB the highest specificity. On DRCD, the 1D-CNN has the highest sensitivity and CLAM-MB the highest specificity. DRCD is the harder cohort: each test fold removes a larger share of the 17 compounds, and the fold-to-fold spread is wider.
+DILInet has the highest mean accuracy, balanced accuracy, weighted F1, and Matthews correlation coefficient on both datasets, among seven pathology models and five transcriptomic models trained on the same splits. DRCD is the harder cohort: each test fold removes a larger share of the 17 compounds, and the fold-to-fold spread is wider.
 
 ---
 
