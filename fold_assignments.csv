@@ -1,0 +1,1023 @@
+dataset,slide_id,label,compound_name,fold_0,fold_1,fold_2,fold_3,fold_4
+DHLD,10109,0,glibenclamide,train,test,train,train,train
+DHLD,10115,0,glibenclamide,train,test,train,train,train
+DHLD,10304,0,glibenclamide,train,test,train,train,train
+DHLD,10482,0,glibenclamide,train,test,train,train,train
+DHLD,10533,0,glibenclamide,train,test,train,train,train
+DHLD,10603,0,glibenclamide,train,test,train,train,train
+DHLD,10642,0,glibenclamide,train,test,train,train,train
+DHLD,11029,0,griseofulvin,train,train,train,test,train
+DHLD,11038,0,griseofulvin,train,train,train,test,train
+DHLD,11318,0,flutamide,test,train,train,train,train
+DHLD,11434,0,flutamide,test,train,train,train,train
+DHLD,11662,0,lomustine,test,val,val,val,val
+DHLD,11664,0,lomustine,test,val,val,val,val
+DHLD,11729,0,flutamide,test,train,train,train,train
+DHLD,11810,0,flutamide,test,train,train,train,train
+DHLD,11876,1,flutamide,test,train,train,train,train
+DHLD,11893,1,flutamide,test,train,train,train,train
+DHLD,11961,1,flutamide,test,train,train,train,train
+DHLD,11974,1,flutamide,test,train,train,train,train
+DHLD,11985,1,flutamide,test,train,train,train,train
+DHLD,12982,0,pemoline,val,val,val,test,val
+DHLD,13139,1,chlormezanone,test,train,train,train,train
+DHLD,13141,1,chlormezanone,test,train,train,train,train
+DHLD,13144,1,chlormezanone,test,train,train,train,train
+DHLD,13313,0,pemoline,val,val,val,test,val
+DHLD,13326,0,metformin,val,test,val,val,val
+DHLD,13607,0,ethinylestradiol,val,val,val,test,val
+DHLD,13618,0,ethinylestradiol,val,val,val,test,val
+DHLD,13641,0,tamoxifen,val,val,val,val,test
+DHLD,13649,0,tamoxifen,val,val,val,val,test
+DHLD,13942,0,methyldopa,val,val,test,val,val
+DHLD,13948,0,methyldopa,val,val,test,val,val
+DHLD,13968,0,ciprofloxacin,val,test,val,val,val
+DHLD,14952,0,ciprofloxacin,val,test,val,val,val
+DHLD,15438,0,chloramphenicol,train,train,train,test,train
+DHLD,15442,0,chloramphenicol,train,train,train,test,train
+DHLD,15450,0,chloramphenicol,train,train,train,test,train
+DHLD,15457,0,chloramphenicol,train,train,train,test,train
+DHLD,15983,0,nitrofurazone,train,test,train,train,train
+DHLD,16020,0,nitrofurazone,train,test,train,train,train
+DHLD,16257,0,nitrofurazone,train,test,train,train,train
+DHLD,16274,0,nitrofurazone,train,test,train,train,train
+DHLD,18968,0,amitriptyline,test,val,val,val,val
+DHLD,19778,1,hydroxyzine,val,val,val,test,val
+DHLD,19781,1,hydroxyzine,val,val,val,test,val
+DHLD,20378,0,mefenamic acid,val,test,val,val,val
+DHLD,22197,1,diltiazem,val,val,val,test,val
+DHLD,22203,1,diltiazem,val,val,val,test,val
+DHLD,22210,1,diltiazem,val,val,val,test,val
+DHLD,24198,0,tannic acid,val,test,val,val,val
+DHLD,24208,0,tannic acid,val,test,val,val,val
+DHLD,24946,0,captopril,train,train,test,train,train
+DHLD,24949,0,captopril,train,train,test,train,train
+DHLD,24954,0,captopril,train,train,test,train,train
+DHLD,24964,0,captopril,train,train,test,train,train
+DHLD,24968,0,captopril,train,train,test,train,train
+DHLD,24972,1,clofibrate,train,train,train,test,train
+DHLD,24976,0,clofibrate,train,train,train,test,train
+DHLD,25021,1,clofibrate,train,train,train,test,train
+DHLD,25030,0,clofibrate,train,train,train,test,train
+DHLD,25038,0,clofibrate,train,train,train,test,train
+DHLD,25299,0,naphthyl isothiocyanate,test,val,val,val,val
+DHLD,25384,0,naphthyl isothiocyanate,test,val,val,val,val
+DHLD,25598,0,allyl alcohol,test,train,val,val,train
+DHLD,25637,1,phenobarbital,train,train,train,train,test
+DHLD,25656,1,phenobarbital,train,train,train,train,test
+DHLD,25658,1,phenobarbital,train,train,train,train,test
+DHLD,25671,0,allyl alcohol,test,train,val,val,train
+DHLD,25678,1,phenobarbital,train,train,train,train,test
+DHLD,25680,1,phenobarbital,train,train,train,train,test
+DHLD,25682,1,phenobarbital,train,train,train,train,test
+DHLD,25728,0,allyl alcohol,test,train,val,val,train
+DHLD,25962,1,carbon tetrachloride,test,train,train,train,train
+DHLD,25964,1,carbon tetrachloride,test,train,train,train,train
+DHLD,26001,1,carbon tetrachloride,test,train,train,train,train
+DHLD,26024,0,carbon tetrachloride,test,train,train,train,train
+DHLD,26079,1,carbon tetrachloride,test,train,train,train,train
+DHLD,26081,1,carbon tetrachloride,test,train,train,train,train
+DHLD,26135,1,carbon tetrachloride,test,train,train,train,train
+DHLD,26138,1,carbon tetrachloride,test,train,train,train,train
+DHLD,26140,1,carbon tetrachloride,test,train,train,train,train
+DHLD,26458,1,carbon tetrachloride,test,train,train,train,train
+DHLD,26459,1,carbon tetrachloride,test,train,train,train,train
+DHLD,26461,1,carbon tetrachloride,test,train,train,train,train
+DHLD,26467,1,carbon tetrachloride,test,train,train,train,train
+DHLD,26472,1,carbon tetrachloride,test,train,train,train,train
+DHLD,26474,1,carbon tetrachloride,test,train,train,train,train
+DHLD,26476,1,carbon tetrachloride,test,train,train,train,train
+DHLD,26483,1,carbon tetrachloride,test,train,train,train,train
+DHLD,26485,1,carbon tetrachloride,test,train,train,train,train
+DHLD,26507,1,carbon tetrachloride,test,train,train,train,train
+DHLD,26509,1,carbon tetrachloride,test,train,train,train,train
+DHLD,26515,1,carbon tetrachloride,test,train,train,train,train
+DHLD,26516,1,carbon tetrachloride,test,train,train,train,train
+DHLD,26518,1,carbon tetrachloride,test,train,train,train,train
+DHLD,26522,1,carbon tetrachloride,test,train,train,train,train
+DHLD,26526,1,carbon tetrachloride,test,train,train,train,train
+DHLD,26528,1,carbon tetrachloride,test,train,train,train,train
+DHLD,26530,1,carbon tetrachloride,test,train,train,train,train
+DHLD,26556,1,carbon tetrachloride,test,train,train,train,train
+DHLD,26561,1,carbon tetrachloride,test,train,train,train,train
+DHLD,26564,1,carbon tetrachloride,test,train,train,train,train
+DHLD,26566,1,carbon tetrachloride,test,train,train,train,train
+DHLD,26570,1,carbon tetrachloride,test,train,train,train,train
+DHLD,26573,1,carbon tetrachloride,test,train,train,train,train
+DHLD,26575,1,carbon tetrachloride,test,train,train,train,train
+DHLD,26578,1,carbon tetrachloride,test,train,train,train,train
+DHLD,26610,1,carbon tetrachloride,test,train,train,train,train
+DHLD,26613,1,carbon tetrachloride,test,train,train,train,train
+DHLD,26620,1,carbon tetrachloride,test,train,train,train,train
+DHLD,26623,1,carbon tetrachloride,test,train,train,train,train
+DHLD,26626,1,carbon tetrachloride,test,train,train,train,train
+DHLD,26632,1,carbon tetrachloride,test,train,train,train,train
+DHLD,26639,1,carbon tetrachloride,test,train,train,train,train
+DHLD,27143,1,acetaminophen,train,train,train,train,test
+DHLD,27237,1,acetaminophen,train,train,train,train,test
+DHLD,27250,1,acetaminophen,train,train,train,train,test
+DHLD,27390,0,omeprazole,train,train,test,train,train
+DHLD,27393,0,omeprazole,train,train,test,train,train
+DHLD,27415,0,omeprazole,train,train,test,train,train
+DHLD,27469,1,omeprazole,train,train,test,train,train
+DHLD,27479,1,omeprazole,train,train,test,train,train
+DHLD,27483,1,omeprazole,train,train,test,train,train
+DHLD,27534,1,omeprazole,train,train,test,train,train
+DHLD,27540,1,omeprazole,train,train,test,train,train
+DHLD,27542,1,omeprazole,train,train,test,train,train
+DHLD,27706,0,ethionine,train,train,train,test,train
+DHLD,27709,0,ethionine,train,train,train,test,train
+DHLD,27724,1,ethionine,train,train,train,test,train
+DHLD,27750,0,ethionine,train,train,train,test,train
+DHLD,27753,0,ethionine,train,train,train,test,train
+DHLD,27777,0,ethionine,train,train,train,test,train
+DHLD,27801,1,ethionine,train,train,train,test,train
+DHLD,27804,1,ethionine,train,train,train,test,train
+DHLD,27824,0,ethionine,train,train,train,test,train
+DHLD,27833,0,ethionine,train,train,train,test,train
+DHLD,27850,0,ethionine,train,train,train,test,train
+DHLD,27852,0,ethionine,train,train,train,test,train
+DHLD,27861,0,ethionine,train,train,train,test,train
+DHLD,27886,0,ethionine,train,train,train,test,train
+DHLD,28150,1,acetaminophen,train,train,train,train,test
+DHLD,28622,0,carbamazepine,train,test,train,train,train
+DHLD,28649,0,carbamazepine,train,test,train,train,train
+DHLD,28663,1,carbamazepine,train,test,train,train,train
+DHLD,28668,1,carbamazepine,train,test,train,train,train
+DHLD,28685,1,carbamazepine,train,test,train,train,train
+DHLD,28687,1,carbamazepine,train,test,train,train,train
+DHLD,28696,1,carbamazepine,train,test,train,train,train
+DHLD,28708,1,carbamazepine,train,test,train,train,train
+DHLD,28714,1,carbamazepine,train,test,train,train,train
+DHLD,28720,1,carbamazepine,train,test,train,train,train
+DHLD,28737,1,carbamazepine,train,test,train,train,train
+DHLD,28748,1,carbamazepine,train,test,train,train,train
+DHLD,28752,1,carbamazepine,train,test,train,train,train
+DHLD,28754,1,carbamazepine,train,test,train,train,train
+DHLD,28757,1,carbamazepine,train,test,train,train,train
+DHLD,28775,1,carbamazepine,train,test,train,train,train
+DHLD,28779,1,carbamazepine,train,test,train,train,train
+DHLD,28782,1,carbamazepine,train,test,train,train,train
+DHLD,29328,0,diclofenac,train,test,train,train,train
+DHLD,29365,0,diclofenac,train,test,train,train,train
+DHLD,29379,0,diclofenac,train,test,train,train,train
+DHLD,29403,0,diclofenac,train,test,train,train,train
+DHLD,29410,0,diclofenac,train,test,train,train,train
+DHLD,29415,0,diclofenac,train,test,train,train,train
+DHLD,29457,0,diclofenac,train,test,train,train,train
+DHLD,29527,0,WY-14643,val,val,test,val,val
+DHLD,29847,0,gemfibrozil,val,val,val,test,val
+DHLD,29950,0,nitrofurantoin,train,train,train,test,train
+DHLD,29966,0,nitrofurantoin,train,train,train,test,train
+DHLD,30011,0,nitrofurantoin,train,train,train,test,train
+DHLD,30025,0,nitrofurantoin,train,train,train,test,train
+DHLD,30049,0,nitrofurantoin,train,train,train,test,train
+DHLD,30052,0,nitrofurantoin,train,train,train,test,train
+DHLD,30062,0,nitrofurantoin,train,train,train,test,train
+DHLD,30065,0,nitrofurantoin,train,train,train,test,train
+DHLD,30077,0,nitrofurantoin,train,train,train,test,train
+DHLD,30079,0,nitrofurantoin,train,train,train,test,train
+DHLD,30081,0,nitrofurantoin,train,train,train,test,train
+DHLD,30086,0,nitrofurantoin,train,train,train,test,train
+DHLD,30113,0,nitrofurantoin,train,train,train,test,train
+DHLD,30276,1,bromobenzene,val,test,train,train,train
+DHLD,30278,1,bromobenzene,val,test,train,train,train
+DHLD,30288,0,amiodarone,train,train,train,train,test
+DHLD,30313,0,amiodarone,train,train,train,train,test
+DHLD,30325,0,amiodarone,train,train,train,train,test
+DHLD,30363,0,amiodarone,train,train,train,train,test
+DHLD,30366,0,amiodarone,train,train,train,train,test
+DHLD,30381,0,amiodarone,train,train,train,train,test
+DHLD,30458,1,amiodarone,train,train,train,train,test
+DHLD,30464,1,amiodarone,train,train,train,train,test
+DHLD,30506,1,amiodarone,train,train,train,train,test
+DHLD,30508,1,amiodarone,train,train,train,train,test
+DHLD,30513,1,amiodarone,train,train,train,train,test
+DHLD,30546,1,bromobenzene,val,test,train,train,train
+DHLD,30549,1,bromobenzene,val,test,train,train,train
+DHLD,30759,1,sulfasalazine,test,train,train,train,train
+DHLD,30761,1,sulfasalazine,test,train,train,train,train
+DHLD,30763,1,sulfasalazine,test,train,train,train,train
+DHLD,30783,0,sulfasalazine,test,train,train,train,train
+DHLD,30803,1,sulfasalazine,test,train,train,train,train
+DHLD,30807,1,sulfasalazine,test,train,train,train,train
+DHLD,30813,1,sulfasalazine,test,train,train,train,train
+DHLD,30830,1,adapin,val,val,val,val,test
+DHLD,30832,1,adapin,val,val,val,val,test
+DHLD,30862,1,sulfasalazine,test,train,train,train,train
+DHLD,30865,1,sulfasalazine,test,train,train,train,train
+DHLD,30867,1,sulfasalazine,test,train,train,train,train
+DHLD,31069,0,cimetidine,train,test,train,train,train
+DHLD,31127,0,cimetidine,train,test,train,train,train
+DHLD,31149,0,cimetidine,train,test,train,train,train
+DHLD,31150,0,cimetidine,train,test,train,train,train
+DHLD,31163,1,cimetidine,train,test,train,train,train
+DHLD,31801,0,griseofulvin,train,train,train,test,train
+DHLD,31841,0,griseofulvin,train,train,train,test,train
+DHLD,31845,0,griseofulvin,train,train,train,test,train
+DHLD,31952,1,griseofulvin,train,train,train,test,train
+DHLD,31990,1,griseofulvin,train,train,train,test,train
+DHLD,32021,1,griseofulvin,train,train,train,test,train
+DHLD,32200,0,lomustine,test,val,val,val,val
+DHLD,3243,0,valproic acid,test,train,train,train,train
+DHLD,3246,0,valproic acid,test,train,train,train,train
+DHLD,32613,0,chlormezanone,test,train,train,train,train
+DHLD,32751,1,chlormezanone,test,train,train,train,train
+DHLD,32754,1,chlormezanone,test,train,train,train,train
+DHLD,32758,1,chlormezanone,test,train,train,train,train
+DHLD,3281,0,valproic acid,test,train,train,train,train
+DHLD,3284,0,valproic acid,test,train,train,train,train
+DHLD,3286,0,valproic acid,test,train,train,train,train
+DHLD,32945,0,metformin,val,test,val,val,val
+DHLD,33533,1,methimazole,val,test,val,val,val
+DHLD,33550,1,methimazole,val,test,val,val,val
+DHLD,33580,0,ethinylestradiol,val,val,val,test,val
+DHLD,33986,1,monocrotaline,val,val,test,val,val
+DHLD,3402,0,valproic acid,test,train,train,train,train
+DHLD,34085,1,monocrotaline,val,val,test,val,val
+DHLD,34529,0,furosemide,val,val,val,val,test
+DHLD,34531,0,furosemide,val,val,val,val,test
+DHLD,35207,1,quinidine,test,val,val,val,val
+DHLD,35383,1,chlorpropamide,val,val,val,test,val
+DHLD,35384,1,chlorpropamide,val,val,val,test,val
+DHLD,35478,0,enalapril,train,test,train,train,train
+DHLD,35498,0,enalapril,train,test,train,train,train
+DHLD,35502,0,enalapril,train,test,train,train,train
+DHLD,35524,0,enalapril,train,test,train,train,train
+DHLD,35527,0,enalapril,train,test,train,train,train
+DHLD,35531,0,enalapril,train,test,train,train,train
+DHLD,3599,0,valproic acid,test,train,train,train,train
+DHLD,36094,1,ethambutol,train,train,test,train,train
+DHLD,36200,1,ethambutol,train,train,test,train,train
+DHLD,36206,1,ethambutol,train,train,test,train,train
+DHLD,36232,1,ethambutol,train,train,test,train,train
+DHLD,36239,1,ethambutol,train,train,test,train,train
+DHLD,36259,1,ethambutol,train,train,test,train,train
+DHLD,36297,1,ethambutol,train,train,test,train,train
+DHLD,36310,1,ethambutol,train,train,test,train,train
+DHLD,3633,0,clofibrate,train,train,train,test,train
+DHLD,36335,1,ethambutol,train,train,test,train,train
+DHLD,36342,1,ethambutol,train,train,test,train,train
+DHLD,36355,1,ethambutol,train,train,test,train,train
+DHLD,36362,1,ethambutol,train,train,test,train,train
+DHLD,36381,1,ethambutol,train,train,test,train,train
+DHLD,36388,1,ethambutol,train,train,test,train,train
+DHLD,36460,1,ethambutol,train,train,test,train,train
+DHLD,37656,1,papaverine,train,test,train,train,train
+DHLD,37679,1,papaverine,train,test,train,train,train
+DHLD,37683,1,papaverine,train,test,train,train,train
+DHLD,37707,1,papaverine,train,test,train,train,train
+DHLD,37721,1,papaverine,train,test,train,train,train
+DHLD,37735,1,papaverine,train,test,train,train,train
+DHLD,37754,1,papaverine,train,test,train,train,train
+DHLD,37758,1,papaverine,train,test,train,train,train
+DHLD,37763,1,papaverine,train,test,train,train,train
+DHLD,37772,1,papaverine,train,test,train,train,train
+DHLD,37777,1,papaverine,train,test,train,train,train
+DHLD,37791,1,papaverine,train,test,train,train,train
+DHLD,37796,1,papaverine,train,test,train,train,train
+DHLD,37801,1,papaverine,train,test,train,train,train
+DHLD,37811,1,papaverine,train,test,train,train,train
+DHLD,38649,1,disopyramide,train,train,train,train,test
+DHLD,38659,1,disopyramide,train,train,train,train,test
+DHLD,38665,1,disopyramide,train,train,train,train,test
+DHLD,38679,1,disopyramide,train,train,train,train,test
+DHLD,40645,1,tolbutamide,val,val,val,test,val
+DHLD,41384,0,acarbose,test,val,val,val,val
+DHLD,41691,0,colchicine,val,val,test,val,val
+DHLD,41694,0,acarbose,test,val,val,val,val
+DHLD,41697,0,acarbose,test,val,val,val,val
+DHLD,41716,0,acarbose,test,val,val,val,val
+DHLD,42034,0,simvastatin,test,train,train,train,train
+DHLD,42054,0,simvastatin,test,train,train,train,train
+DHLD,42056,0,simvastatin,test,train,train,train,train
+DHLD,42067,0,simvastatin,test,train,train,train,train
+DHLD,42381,0,simvastatin,test,train,train,train,train
+DHLD,42412,0,simvastatin,test,train,train,train,train
+DHLD,42992,1,clomipramine,val,val,test,val,val
+DHLD,42994,1,clomipramine,val,val,test,val,val
+DHLD,43084,0,ajmaline,test,val,val,val,val
+DHLD,43093,0,ajmaline,test,val,val,val,val
+DHLD,43767,0,dantrolene,train,train,train,train,test
+DHLD,43768,0,dantrolene,train,train,train,train,test
+DHLD,43769,0,dantrolene,train,train,train,train,test
+DHLD,43773,0,dantrolene,train,train,train,train,test
+DHLD,43777,0,terbinafine,train,train,train,train,test
+DHLD,43805,0,terbinafine,train,train,train,train,test
+DHLD,43893,1,dantrolene,train,train,train,train,test
+DHLD,43901,1,dantrolene,train,train,train,train,test
+DHLD,44093,0,bendazac,train,test,train,train,train
+DHLD,44150,0,terbinafine,train,train,train,train,test
+DHLD,44184,1,terbinafine,train,train,train,train,test
+DHLD,44318,1,terbinafine,train,train,train,train,test
+DHLD,44341,0,bendazac,train,test,train,train,train
+DHLD,4437,1,allyl alcohol,test,train,val,val,train
+DHLD,44484,1,bendazac,train,test,train,train,train
+DHLD,44486,1,bendazac,train,test,train,train,train
+DHLD,44491,1,bendazac,train,test,train,train,train
+DHLD,44766,0,benziodarone,train,train,train,train,test
+DHLD,44773,0,benziodarone,train,train,train,train,test
+DHLD,44790,0,benziodarone,train,train,train,train,test
+DHLD,44827,0,meloxicam,val,val,test,val,val
+DHLD,44891,0,benziodarone,train,train,train,train,test
+DHLD,44899,0,benziodarone,train,train,train,train,test
+DHLD,44906,0,benziodarone,train,train,train,train,test
+DHLD,44915,0,benziodarone,train,train,train,train,test
+DHLD,44923,0,benziodarone,train,train,train,train,test
+DHLD,45113,0,lornoxicam,val,val,val,val,test
+DHLD,45228,0,etoposide,test,train,train,train,train
+DHLD,45514,0,etoposide,test,train,train,train,train
+DHLD,45522,0,etoposide,test,train,train,train,train
+DHLD,45531,0,etoposide,test,train,train,train,train
+DHLD,45961,0,ethionamide,train,train,train,train,test
+DHLD,45975,0,ethionamide,train,train,train,train,test
+DHLD,45993,0,ethionamide,train,train,train,train,test
+DHLD,45995,0,ethionamide,train,train,train,train,test
+DHLD,46004,0,ethionamide,train,train,train,train,test
+DHLD,46295,0,ethionamide,train,train,train,train,test
+DHLD,46297,0,ethionamide,train,train,train,train,test
+DHLD,46313,0,ethionamide,train,train,train,train,test
+DHLD,46316,0,ethionamide,train,train,train,train,test
+DHLD,4690,0,ethionine,train,train,train,test,train
+DHLD,47022,0,nimesulide,train,train,test,train,train
+DHLD,47048,0,nimesulide,train,train,test,train,train
+DHLD,47054,0,nimesulide,train,train,test,train,train
+DHLD,47083,0,nimesulide,train,train,test,train,train
+DHLD,47107,0,nimesulide,train,train,test,train,train
+DHLD,47110,0,nimesulide,train,train,test,train,train
+DHLD,47127,0,nimesulide,train,train,test,train,train
+DHLD,47130,0,nimesulide,train,train,test,train,train
+DHLD,47132,0,nimesulide,train,train,test,train,train
+DHLD,47159,0,nimesulide,train,train,test,train,train
+DHLD,47207,0,nimesulide,train,train,test,train,train
+DHLD,47212,0,nimesulide,train,train,test,train,train
+DHLD,47356,0,nimesulide,train,train,test,train,train
+DHLD,47360,0,nimesulide,train,train,test,train,train
+DHLD,47376,0,nimesulide,train,train,test,train,train
+DHLD,47379,0,nimesulide,train,train,test,train,train
+DHLD,47400,0,nimesulide,train,train,test,train,train
+DHLD,47410,0,nimesulide,train,train,test,train,train
+DHLD,47436,0,nimesulide,train,train,test,train,train
+DHLD,47439,0,nimesulide,train,train,test,train,train
+DHLD,47455,0,nimesulide,train,train,test,train,train
+DHLD,47457,0,nimesulide,train,train,test,train,train
+DHLD,47461,0,nimesulide,train,train,test,train,train
+DHLD,47466,1,nimesulide,train,train,test,train,train
+DHLD,47469,1,nimesulide,train,train,test,train,train
+DHLD,47482,1,nimesulide,train,train,test,train,train
+DHLD,47484,1,nimesulide,train,train,test,train,train
+DHLD,47485,1,nimesulide,train,train,test,train,train
+DHLD,47490,1,nimesulide,train,train,test,train,train
+DHLD,47491,1,nimesulide,train,train,test,train,train
+DHLD,47493,1,nimesulide,train,train,test,train,train
+DHLD,47494,1,nimesulide,train,train,test,train,train
+DHLD,47497,1,nimesulide,train,train,test,train,train
+DHLD,47499,1,nimesulide,train,train,test,train,train
+DHLD,4757,0,ethionine,train,train,train,test,train
+DHLD,4759,1,ethionine,train,train,train,test,train
+DHLD,4766,1,ethionine,train,train,train,test,train
+DHLD,47669,0,ethanol,train,train,test,train,train
+DHLD,4767,1,ethionine,train,train,train,test,train
+DHLD,47678,0,ethanol,train,train,test,train,train
+DHLD,4773,1,ethionine,train,train,train,test,train
+DHLD,4776,0,ethionine,train,train,train,test,train
+DHLD,4784,1,ethionine,train,train,train,test,train
+DHLD,4786,1,ethionine,train,train,train,test,train
+DHLD,4787,1,ethionine,train,train,train,test,train
+DHLD,4794,1,ethionine,train,train,train,test,train
+DHLD,48010,0,ethanol,train,train,test,train,train
+DHLD,48013,0,ethanol,train,train,test,train,train
+DHLD,48018,0,ethanol,train,train,test,train,train
+DHLD,48020,0,ethanol,train,train,test,train,train
+DHLD,48021,0,ethanol,train,train,test,train,train
+DHLD,4830,1,aspirin,train,train,train,train,test
+DHLD,4831,1,aspirin,train,train,train,train,test
+DHLD,4833,1,aspirin,train,train,train,train,test
+DHLD,4835,0,aspirin,train,train,train,train,test
+DHLD,4859,1,aspirin,train,train,train,train,test
+DHLD,4861,1,aspirin,train,train,train,train,test
+DHLD,4866,1,aspirin,train,train,train,train,test
+DHLD,48721,0,promethazine,train,train,test,train,train
+DHLD,48790,1,promethazine,train,train,test,train,train
+DHLD,48805,1,promethazine,train,train,test,train,train
+DHLD,48838,1,promethazine,train,train,test,train,train
+DHLD,4886,1,aspirin,train,train,train,train,test
+DHLD,48863,1,promethazine,train,train,test,train,train
+DHLD,48872,1,promethazine,train,train,test,train,train
+DHLD,48877,1,promethazine,train,train,test,train,train
+DHLD,48892,1,promethazine,train,train,test,train,train
+DHLD,48901,1,promethazine,train,train,test,train,train
+DHLD,48910,1,promethazine,train,train,test,train,train
+DHLD,4892,1,aspirin,train,train,train,train,test
+DHLD,48928,1,promethazine,train,train,test,train,train
+DHLD,48933,1,promethazine,train,train,test,train,train
+DHLD,48943,1,promethazine,train,train,test,train,train
+DHLD,48958,1,promethazine,train,train,test,train,train
+DHLD,48963,1,promethazine,train,train,test,train,train
+DHLD,48973,1,promethazine,train,train,test,train,train
+DHLD,48978,1,promethazine,train,train,test,train,train
+DHLD,48982,1,promethazine,train,train,test,train,train
+DHLD,4917,1,aspirin,train,train,train,train,test
+DHLD,4924,1,aspirin,train,train,train,train,test
+DHLD,4925,1,aspirin,train,train,train,train,test
+DHLD,4927,1,aspirin,train,train,train,train,test
+DHLD,49783,1,bucetin,val,train,test,train,train
+DHLD,49789,1,bucetin,val,train,test,train,train
+DHLD,49795,1,bucetin,val,train,test,train,train
+DHLD,49799,1,bucetin,val,train,test,train,train
+DHLD,51449,1,acetamidofluorene,train,train,train,test,train
+DHLD,51456,1,acetamidofluorene,train,train,train,test,train
+DHLD,51484,1,acetamidofluorene,train,train,train,test,train
+DHLD,51492,1,acetamidofluorene,train,train,train,test,train
+DHLD,51495,1,acetamidofluorene,train,train,train,test,train
+DHLD,51502,1,acetamidofluorene,train,train,train,test,train
+DHLD,51508,1,acetamidofluorene,train,train,train,test,train
+DHLD,51532,1,acetamidofluorene,train,train,train,test,train
+DHLD,51534,1,acetamidofluorene,train,train,train,test,train
+DHLD,51535,1,acetamidofluorene,train,train,train,test,train
+DHLD,51742,1,acetamidofluorene,train,train,train,test,train
+DHLD,51751,1,acetamidofluorene,train,train,train,test,train
+DHLD,51758,1,acetamidofluorene,train,train,train,test,train
+DHLD,51796,1,acetamidofluorene,train,train,train,test,train
+DHLD,51804,0,acetamidofluorene,train,train,train,test,train
+DHLD,51821,1,acetamidofluorene,train,train,train,test,train
+DHLD,51865,1,acetamidofluorene,train,train,train,test,train
+DHLD,51903,1,acetamidofluorene,train,train,train,test,train
+DHLD,51910,1,acetamidofluorene,train,train,train,test,train
+DHLD,51918,1,acetamidofluorene,train,train,train,test,train
+DHLD,51926,1,acetamidofluorene,train,train,train,test,train
+DHLD,51930,1,acetamidofluorene,train,train,train,test,train
+DHLD,51935,1,acetamidofluorene,train,train,train,test,train
+DHLD,51943,1,acetamidofluorene,train,train,train,test,train
+DHLD,51946,1,acetamidofluorene,train,train,train,test,train
+DHLD,51959,1,acetamidofluorene,train,train,train,test,train
+DHLD,51994,1,acetamidofluorene,train,train,train,test,train
+DHLD,52002,1,acetamidofluorene,train,train,train,test,train
+DHLD,52019,1,acetamidofluorene,train,train,train,test,train
+DHLD,52028,1,acetamidofluorene,train,train,train,test,train
+DHLD,52032,1,acetamidofluorene,train,train,train,test,train
+DHLD,52320,1,nitrosodiethylamine,train,test,train,train,train
+DHLD,52339,1,nitrosodiethylamine,train,test,train,train,train
+DHLD,52346,0,nitrosodiethylamine,train,test,train,train,train
+DHLD,52368,1,nitrosodiethylamine,train,test,train,train,train
+DHLD,52370,1,nitrosodiethylamine,train,test,train,train,train
+DHLD,52372,1,nitrosodiethylamine,train,test,train,train,train
+DHLD,52373,1,nitrosodiethylamine,train,test,train,train,train
+DHLD,52375,1,nitrosodiethylamine,train,test,train,train,train
+DHLD,52376,1,nitrosodiethylamine,train,test,train,train,train
+DHLD,52389,1,nitrosodiethylamine,train,test,train,train,train
+DHLD,52390,1,nitrosodiethylamine,train,test,train,train,train
+DHLD,52391,1,nitrosodiethylamine,train,test,train,train,train
+DHLD,52394,1,nitrosodiethylamine,train,test,train,train,train
+DHLD,52395,1,nitrosodiethylamine,train,test,train,train,train
+DHLD,52396,1,nitrosodiethylamine,train,test,train,train,train
+DHLD,52408,1,nitrosodiethylamine,train,test,train,train,train
+DHLD,52411,1,nitrosodiethylamine,train,test,train,train,train
+DHLD,52413,1,nitrosodiethylamine,train,test,train,train,train
+DHLD,52414,1,nitrosodiethylamine,train,test,train,train,train
+DHLD,52417,1,nitrosodiethylamine,train,test,train,train,train
+DHLD,52675,1,nitrosodiethylamine,train,test,train,train,train
+DHLD,52684,1,nitrosodiethylamine,train,test,train,train,train
+DHLD,52689,1,nitrosodiethylamine,train,test,train,train,train
+DHLD,52728,1,nitrosodiethylamine,train,test,train,train,train
+DHLD,52735,1,nitrosodiethylamine,train,test,train,train,train
+DHLD,52741,1,nitrosodiethylamine,train,test,train,train,train
+DHLD,52798,1,nitrosodiethylamine,train,test,train,train,train
+DHLD,52805,1,nitrosodiethylamine,train,test,train,train,train
+DHLD,52808,1,nitrosodiethylamine,train,test,train,train,train
+DHLD,52812,1,nitrosodiethylamine,train,test,train,train,train
+DHLD,52848,1,nitrosodiethylamine,train,test,train,train,train
+DHLD,52850,1,nitrosodiethylamine,train,test,train,train,train
+DHLD,52853,1,nitrosodiethylamine,train,test,train,train,train
+DHLD,53470,1,ticlopidine,train,train,train,test,train
+DHLD,53474,1,ticlopidine,train,train,train,test,train
+DHLD,53510,1,ticlopidine,train,train,train,test,train
+DHLD,53512,1,ticlopidine,train,train,train,test,train
+DHLD,53515,1,ticlopidine,train,train,train,test,train
+DHLD,5361,0,carbamazepine,train,test,train,train,train
+DHLD,53645,1,nitrosodiethylamine,train,test,train,train,train
+DHLD,5373,0,carbamazepine,train,test,train,train,train
+DHLD,5408,0,carbamazepine,train,test,train,train,train
+DHLD,56647,1,doxorubicin,test,val,val,val,val
+DHLD,57831,1,nicotinic acid,train,train,test,train,train
+DHLD,57836,1,nicotinic acid,train,train,test,train,train
+DHLD,57857,1,nicotinic acid,train,train,test,train,train
+DHLD,57925,1,nicotinic acid,train,train,test,train,train
+DHLD,57934,1,nicotinic acid,train,train,test,train,train
+DHLD,57937,1,nicotinic acid,train,train,test,train,train
+DHLD,58009,1,nicotinic acid,train,train,test,train,train
+DHLD,58020,1,nicotinic acid,train,train,test,train,train
+DHLD,58030,1,nicotinic acid,train,train,test,train,train
+DHLD,58036,1,nicotinic acid,train,train,test,train,train
+DHLD,58047,1,nicotinic acid,train,train,test,train,train
+DHLD,59450,1,phorone,train,train,test,train,train
+DHLD,59471,1,phorone,train,train,test,train,train
+DHLD,59473,1,phorone,train,train,test,train,train
+DHLD,59972,0,diethyl maleate,test,val,val,val,val
+DHLD,59981,0,buthionine sulfoximine,val,val,val,val,test
+DHLD,60000,0,diethyl maleate,test,val,val,val,val
+DHLD,60342,0,isoniazid,val,val,val,val,test
+DHLD,60369,0,isoniazid,val,val,val,val,test
+DHLD,60528,1,isoniazid,val,val,val,val,test
+DHLD,6074,1,benzbromarone,train,train,train,test,train
+DHLD,6077,1,benzbromarone,train,train,train,test,train
+DHLD,6082,1,benzbromarone,train,train,train,test,train
+DHLD,6085,1,benzbromarone,train,train,train,test,train
+DHLD,6088,1,benzbromarone,train,train,train,test,train
+DHLD,6095,1,benzbromarone,train,train,train,test,train
+DHLD,6107,1,benzbromarone,train,train,train,test,train
+DHLD,61461,1,aspirin,train,train,train,train,test
+DHLD,61469,1,aspirin,train,train,train,train,test
+DHLD,61479,1,aspirin,train,train,train,train,test
+DHLD,61497,1,aspirin,train,train,train,train,test
+DHLD,61499,1,aspirin,train,train,train,train,test
+DHLD,61505,1,aspirin,train,train,train,train,test
+DHLD,61520,0,aspirin,train,train,train,train,test
+DHLD,61549,0,chlorpromazine,val,test,val,val,val
+DHLD,61553,1,aspirin,train,train,train,train,test
+DHLD,61591,0,aspirin,train,train,train,train,test
+DHLD,61593,0,aspirin,train,train,train,train,test
+DHLD,61747,0,diclofenac,train,test,train,train,train
+DHLD,61789,0,diclofenac,train,test,train,train,train
+DHLD,62039,0,hexachlorobenzene,train,train,train,train,test
+DHLD,62100,0,hexachlorobenzene,train,train,train,train,test
+DHLD,62343,0,amiodarone,train,train,train,train,test
+DHLD,62395,0,amiodarone,train,train,train,train,test
+DHLD,62464,0,amiodarone,train,train,train,train,test
+DHLD,6258,1,hexachlorobenzene,train,train,train,train,test
+DHLD,6287,1,hexachlorobenzene,train,train,train,train,test
+DHLD,6291,1,hexachlorobenzene,train,train,train,train,test
+DHLD,6294,1,hexachlorobenzene,train,train,train,train,test
+DHLD,6296,1,hexachlorobenzene,train,train,train,train,test
+DHLD,6301,1,hexachlorobenzene,train,train,train,train,test
+DHLD,6302,1,hexachlorobenzene,train,train,train,train,test
+DHLD,63599,0,desmopressin acetate,val,val,test,val,val
+DHLD,63604,0,desmopressin acetate,val,val,test,val,val
+DHLD,6362,1,hexachlorobenzene,train,train,train,train,test
+DHLD,6365,1,hexachlorobenzene,train,train,train,train,test
+DHLD,6368,1,hexachlorobenzene,train,train,train,train,test
+DHLD,6371,1,hexachlorobenzene,train,train,train,train,test
+DHLD,6372,1,hexachlorobenzene,train,train,train,train,test
+DHLD,6374,1,hexachlorobenzene,train,train,train,train,test
+DHLD,6375,1,hexachlorobenzene,train,train,train,train,test
+DHLD,6380,1,hexachlorobenzene,train,train,train,train,test
+DHLD,6383,1,hexachlorobenzene,train,train,train,train,test
+DHLD,6385,1,hexachlorobenzene,train,train,train,train,test
+DHLD,6388,1,hexachlorobenzene,train,train,train,train,test
+DHLD,6390,1,hexachlorobenzene,train,train,train,train,test
+DHLD,6394,1,hexachlorobenzene,train,train,train,train,test
+DHLD,63940,0,desmopressin acetate,val,val,test,val,val
+DHLD,6396,1,hexachlorobenzene,train,train,train,train,test
+DHLD,6397,1,hexachlorobenzene,train,train,train,train,test
+DHLD,6403,1,hexachlorobenzene,train,train,train,train,test
+DHLD,6404,1,hexachlorobenzene,train,train,train,train,test
+DHLD,6408,1,hexachlorobenzene,train,train,train,train,test
+DHLD,6413,1,hexachlorobenzene,train,train,train,train,test
+DHLD,6414,1,hexachlorobenzene,train,train,train,train,test
+DHLD,6418,1,hexachlorobenzene,train,train,train,train,test
+DHLD,64984,0,amphotericin B,val,val,val,test,val
+DHLD,66141,1,1% cholesterol + 0.25% sodium cholate,test,train,train,train,train
+DHLD,66148,1,1% cholesterol + 0.25% sodium cholate,test,train,train,train,train
+DHLD,66156,1,1% cholesterol + 0.25% sodium cholate,test,train,train,train,train
+DHLD,66160,1,1% cholesterol + 0.25% sodium cholate,test,train,train,train,train
+DHLD,66167,1,1% cholesterol + 0.25% sodium cholate,test,train,train,train,train
+DHLD,66171,1,1% cholesterol + 0.25% sodium cholate,test,train,train,train,train
+DHLD,66183,1,1% cholesterol + 0.25% sodium cholate,test,train,train,train,train
+DHLD,66187,1,1% cholesterol + 0.25% sodium cholate,test,train,train,train,train
+DHLD,66195,1,1% cholesterol + 0.25% sodium cholate,test,train,train,train,train
+DHLD,66211,1,1% cholesterol + 0.25% sodium cholate,test,train,train,train,train
+DHLD,66341,1,bortezomib,train,train,train,test,train
+DHLD,66345,1,bortezomib,train,train,train,test,train
+DHLD,66351,1,bortezomib,train,train,train,test,train
+DHLD,66368,1,bortezomib,train,train,train,test,train
+DHLD,66372,1,bortezomib,train,train,train,test,train
+DHLD,66376,1,bortezomib,train,train,train,test,train
+DHLD,66380,1,bortezomib,train,train,train,test,train
+DHLD,66507,1,bortezomib,train,train,train,test,train
+DHLD,70095,0,ethionamide,train,train,train,train,test
+DHLD,70359,1,acetaminophen,train,train,train,train,test
+DHLD,70463,1,aspirin,train,train,train,train,test
+DHLD,70464,1,aspirin,train,train,train,train,test
+DHLD,70536,1,methimazole,val,test,val,val,val
+DHLD,70554,1,monocrotaline,val,val,test,val,val
+DHLD,70686,1,promethazine,train,train,test,train,train
+DHLD,70688,1,promethazine,train,train,test,train,train
+DHLD,70945,1,1% cholesterol + 0.25% sodium cholate,test,train,train,train,train
+DHLD,70946,1,1% cholesterol + 0.25% sodium cholate,test,train,train,train,train
+DHLD,70977,1,bortezomib,train,train,train,test,train
+DHLD,71068,1,phorone,train,train,test,train,train
+DHLD,7387,0,allopurinol,val,val,test,val,val
+DHLD,8271,0,sulfasalazine,test,train,train,train,train
+DHLD,8280,0,sulfasalazine,test,train,train,train,train
+DHLD,8313,0,sulfasalazine,test,train,train,train,train
+DHLD,8345,0,sulfasalazine,test,train,train,train,train
+DHLD,8420,0,sulfasalazine,test,train,train,train,train
+DHLD,8439,0,sulfasalazine,test,train,train,train,train
+DHLD,8454,0,sulfasalazine,test,train,train,train,train
+DHLD,8785,0,cimetidine,train,test,train,train,train
+DHLD,8788,0,cimetidine,train,test,train,train,train
+DRCD,10109,0,glibenclamide,train,train,train,train,test
+DRCD,10115,0,glibenclamide,train,train,train,train,test
+DRCD,10131,0,glibenclamide,train,train,train,train,test
+DRCD,10140,0,glibenclamide,train,train,train,train,test
+DRCD,10173,0,glibenclamide,train,train,train,train,test
+DRCD,10220,0,glibenclamide,train,train,train,train,test
+DRCD,10235,0,glibenclamide,train,train,train,train,test
+DRCD,10266,0,glibenclamide,train,train,train,train,test
+DRCD,10304,0,glibenclamide,train,train,train,train,test
+DRCD,10482,0,glibenclamide,train,train,train,train,test
+DRCD,10533,0,glibenclamide,train,train,train,train,test
+DRCD,10550,0,glibenclamide,train,train,train,train,test
+DRCD,10554,0,glibenclamide,train,train,train,train,test
+DRCD,10559,0,glibenclamide,train,train,train,train,test
+DRCD,10579,0,glibenclamide,train,train,train,train,test
+DRCD,10603,0,glibenclamide,train,train,train,train,test
+DRCD,10642,0,glibenclamide,train,train,train,train,test
+DRCD,10654,0,glibenclamide,train,train,train,train,test
+DRCD,10670,0,glibenclamide,train,train,train,train,test
+DRCD,13607,0,ethinylestradiol,test,val,val,val,val
+DRCD,13618,0,ethinylestradiol,test,val,val,val,val
+DRCD,13638,0,ethinylestradiol,test,val,val,val,val
+DRCD,13656,0,ethinylestradiol,test,val,val,val,val
+DRCD,13672,0,ethinylestradiol,test,val,val,val,val
+DRCD,13684,0,ethinylestradiol,test,val,val,val,val
+DRCD,13710,0,ethinylestradiol,test,val,val,val,val
+DRCD,13747,0,ethinylestradiol,test,val,val,val,val
+DRCD,15441,1,vitamin A,train,test,train,train,train
+DRCD,15446,1,vitamin A,train,test,train,train,train
+DRCD,15451,1,vitamin A,train,test,train,train,train
+DRCD,15478,1,vitamin A,train,test,train,train,train
+DRCD,15485,1,vitamin A,train,test,train,train,train
+DRCD,15530,1,vitamin A,train,test,train,train,train
+DRCD,15568,1,vitamin A,train,test,train,train,train
+DRCD,15578,1,vitamin A,train,test,train,train,train
+DRCD,15588,1,vitamin A,train,test,train,train,train
+DRCD,15599,1,vitamin A,train,test,train,train,train
+DRCD,15616,1,vitamin A,train,test,train,train,train
+DRCD,15623,1,vitamin A,train,test,train,train,train
+DRCD,15629,1,vitamin A,train,test,train,train,train
+DRCD,15644,1,vitamin A,train,test,train,train,train
+DRCD,15671,1,vitamin A,train,test,train,train,train
+DRCD,15679,1,vitamin A,train,test,train,train,train
+DRCD,15696,1,vitamin A,train,test,train,train,train
+DRCD,15707,1,vitamin A,train,test,train,train,train
+DRCD,15716,1,vitamin A,train,test,train,train,train
+DRCD,15726,1,vitamin A,train,test,train,train,train
+DRCD,15733,1,vitamin A,train,test,train,train,train
+DRCD,15740,1,vitamin A,train,test,train,train,train
+DRCD,15750,1,vitamin A,train,test,train,train,train
+DRCD,24630,0,captopril,val,val,test,val,val
+DRCD,24645,0,captopril,val,val,test,val,val
+DRCD,24656,0,captopril,val,val,test,val,val
+DRCD,24728,0,captopril,val,val,test,val,val
+DRCD,24946,0,captopril,val,val,test,val,val
+DRCD,24949,0,captopril,val,val,test,val,val
+DRCD,24954,0,captopril,val,val,test,val,val
+DRCD,24964,0,captopril,val,val,test,val,val
+DRCD,24968,0,captopril,val,val,test,val,val
+DRCD,24982,0,captopril,val,val,test,val,val
+DRCD,25017,0,captopril,val,val,test,val,val
+DRCD,25020,0,captopril,val,val,test,val,val
+DRCD,25029,0,captopril,val,val,test,val,val
+DRCD,25035,0,captopril,val,val,test,val,val
+DRCD,25037,0,captopril,val,val,test,val,val
+DRCD,25353,0,enalapril,train,train,val,test,train
+DRCD,25354,0,enalapril,train,train,val,test,train
+DRCD,27672,1,thioacetamide,train,train,train,test,train
+DRCD,27678,1,thioacetamide,train,train,train,test,train
+DRCD,27684,1,thioacetamide,train,train,train,test,train
+DRCD,27686,1,thioacetamide,train,train,train,test,train
+DRCD,27689,1,thioacetamide,train,train,train,test,train
+DRCD,29538,1,WY-14643,train,train,train,train,test
+DRCD,29541,1,WY-14643,train,train,train,train,test
+DRCD,29545,1,WY-14643,train,train,train,train,test
+DRCD,29553,1,WY-14643,train,train,train,train,test
+DRCD,29557,1,WY-14643,train,train,train,train,test
+DRCD,29560,1,WY-14643,train,train,train,train,test
+DRCD,29565,1,WY-14643,train,train,train,train,test
+DRCD,29570,1,WY-14643,train,train,train,train,test
+DRCD,29572,1,WY-14643,train,train,train,train,test
+DRCD,29577,1,WY-14643,train,train,train,train,test
+DRCD,29579,1,WY-14643,train,train,train,train,test
+DRCD,29583,1,WY-14643,train,train,train,train,test
+DRCD,29586,1,WY-14643,train,train,train,train,test
+DRCD,29588,1,WY-14643,train,train,train,train,test
+DRCD,29595,1,WY-14643,train,train,train,train,test
+DRCD,29597,1,WY-14643,train,train,train,train,test
+DRCD,29602,1,WY-14643,train,train,train,train,test
+DRCD,29607,1,WY-14643,train,train,train,train,test
+DRCD,29609,1,WY-14643,train,train,train,train,test
+DRCD,29611,1,WY-14643,train,train,train,train,test
+DRCD,29613,1,WY-14643,train,train,train,train,test
+DRCD,29619,1,WY-14643,train,train,train,train,test
+DRCD,29621,1,WY-14643,train,train,train,train,test
+DRCD,29625,1,WY-14643,train,train,train,train,test
+DRCD,29629,1,WY-14643,train,train,train,train,test
+DRCD,29633,1,WY-14643,train,train,train,train,test
+DRCD,29637,1,WY-14643,train,train,train,train,test
+DRCD,29639,1,WY-14643,train,train,train,train,test
+DRCD,29641,1,WY-14643,train,train,train,train,test
+DRCD,29647,1,WY-14643,train,train,train,train,test
+DRCD,29650,1,WY-14643,train,train,train,train,test
+DRCD,29652,1,WY-14643,train,train,train,train,test
+DRCD,29658,1,WY-14643,train,train,train,train,test
+DRCD,29662,1,WY-14643,train,train,train,train,test
+DRCD,29664,1,WY-14643,train,train,train,train,test
+DRCD,31330,0,cyclophosphamide,train,train,test,train,train
+DRCD,31335,0,cyclophosphamide,train,train,test,train,train
+DRCD,31340,0,cyclophosphamide,train,train,test,train,train
+DRCD,31347,0,cyclophosphamide,train,train,test,train,train
+DRCD,31365,0,cyclophosphamide,train,train,test,train,train
+DRCD,31371,0,cyclophosphamide,train,train,test,train,train
+DRCD,31385,0,cyclophosphamide,train,train,test,train,train
+DRCD,31391,0,cyclophosphamide,train,train,test,train,train
+DRCD,31433,0,cyclophosphamide,train,train,test,train,train
+DRCD,31469,0,cyclophosphamide,train,train,test,train,train
+DRCD,31509,0,cyclophosphamide,train,train,test,train,train
+DRCD,31515,0,cyclophosphamide,train,train,test,train,train
+DRCD,31521,0,cyclophosphamide,train,train,test,train,train
+DRCD,31562,0,cyclophosphamide,train,train,test,train,train
+DRCD,31569,0,cyclophosphamide,train,train,test,train,train
+DRCD,31583,0,cyclophosphamide,train,train,test,train,train
+DRCD,31626,0,cyclophosphamide,train,train,test,train,train
+DRCD,31654,0,cyclophosphamide,train,train,test,train,train
+DRCD,31673,0,cyclophosphamide,train,train,test,train,train
+DRCD,31713,0,cyclophosphamide,train,train,test,train,train
+DRCD,31731,0,cyclophosphamide,train,train,test,train,train
+DRCD,31806,0,cyclophosphamide,train,train,test,train,train
+DRCD,33580,0,ethinylestradiol,test,val,val,val,val
+DRCD,33628,0,ethinylestradiol,test,val,val,val,val
+DRCD,33637,0,ethinylestradiol,test,val,val,val,val
+DRCD,33643,0,ethinylestradiol,test,val,val,val,val
+DRCD,33655,0,ethinylestradiol,test,val,val,val,val
+DRCD,35478,0,enalapril,train,train,val,test,train
+DRCD,35498,0,enalapril,train,train,val,test,train
+DRCD,35502,0,enalapril,train,train,val,test,train
+DRCD,35524,0,enalapril,train,train,val,test,train
+DRCD,35527,0,enalapril,train,train,val,test,train
+DRCD,35531,0,enalapril,train,train,val,test,train
+DRCD,35579,0,enalapril,train,train,val,test,train
+DRCD,35644,0,enalapril,train,train,val,test,train
+DRCD,35650,0,enalapril,train,train,val,test,train
+DRCD,35669,0,enalapril,train,train,val,test,train
+DRCD,35703,0,enalapril,train,train,val,test,train
+DRCD,35713,0,enalapril,train,train,val,test,train
+DRCD,35719,0,enalapril,train,train,val,test,train
+DRCD,38251,1,vitamin A,train,test,train,train,train
+DRCD,41384,0,acarbose,train,test,train,train,train
+DRCD,41429,0,acarbose,train,test,train,train,train
+DRCD,41449,0,acarbose,train,test,train,train,train
+DRCD,41451,0,acarbose,train,test,train,train,train
+DRCD,41458,0,acarbose,train,test,train,train,train
+DRCD,41464,0,acarbose,train,test,train,train,train
+DRCD,41469,0,acarbose,train,test,train,train,train
+DRCD,41505,0,acarbose,train,test,train,train,train
+DRCD,41521,0,acarbose,train,test,train,train,train
+DRCD,41694,0,acarbose,train,test,train,train,train
+DRCD,41697,0,acarbose,train,test,train,train,train
+DRCD,41716,0,acarbose,train,test,train,train,train
+DRCD,41721,0,acarbose,train,test,train,train,train
+DRCD,41727,0,acarbose,train,test,train,train,train
+DRCD,41732,0,acarbose,train,test,train,train,train
+DRCD,41736,0,acarbose,train,test,train,train,train
+DRCD,41743,0,acarbose,train,test,train,train,train
+DRCD,41751,0,acarbose,train,test,train,train,train
+DRCD,41763,0,acarbose,train,test,train,train,train
+DRCD,41777,0,acarbose,train,test,train,train,train
+DRCD,41787,0,acarbose,train,test,train,train,train
+DRCD,41805,0,acarbose,train,test,train,train,train
+DRCD,41818,0,acarbose,train,test,train,train,train
+DRCD,42034,0,simvastatin,train,test,train,train,train
+DRCD,42054,0,simvastatin,train,test,train,train,train
+DRCD,42056,0,simvastatin,train,test,train,train,train
+DRCD,42067,0,simvastatin,train,test,train,train,train
+DRCD,42131,0,simvastatin,train,test,train,train,train
+DRCD,42381,0,simvastatin,train,test,train,train,train
+DRCD,42412,0,simvastatin,train,test,train,train,train
+DRCD,42416,0,simvastatin,train,test,train,train,train
+DRCD,42429,0,simvastatin,train,test,train,train,train
+DRCD,42437,0,simvastatin,train,test,train,train,train
+DRCD,42468,0,simvastatin,train,test,train,train,train
+DRCD,42473,0,simvastatin,train,test,train,train,train
+DRCD,42483,0,simvastatin,train,test,train,train,train
+DRCD,42488,0,simvastatin,train,test,train,train,train
+DRCD,42516,0,simvastatin,train,test,train,train,train
+DRCD,42521,0,simvastatin,train,test,train,train,train
+DRCD,42526,0,simvastatin,train,test,train,train,train
+DRCD,43540,0,dantrolene,train,train,train,train,test
+DRCD,43767,0,dantrolene,train,train,train,train,test
+DRCD,43768,0,dantrolene,train,train,train,train,test
+DRCD,43769,0,dantrolene,train,train,train,train,test
+DRCD,43773,0,dantrolene,train,train,train,train,test
+DRCD,43781,0,dantrolene,train,train,train,train,test
+DRCD,43804,0,dantrolene,train,train,train,train,test
+DRCD,43809,0,dantrolene,train,train,train,train,test
+DRCD,43819,0,dantrolene,train,train,train,train,test
+DRCD,43828,0,dantrolene,train,train,train,train,test
+DRCD,43853,0,dantrolene,train,train,train,train,test
+DRCD,43858,0,dantrolene,train,train,train,train,test
+DRCD,43870,0,dantrolene,train,train,train,train,test
+DRCD,43872,0,dantrolene,train,train,train,train,test
+DRCD,43893,0,dantrolene,train,train,train,train,test
+DRCD,43899,0,dantrolene,train,train,train,train,test
+DRCD,43901,0,dantrolene,train,train,train,train,test
+DRCD,45228,0,etoposide,train,train,train,test,train
+DRCD,45265,0,etoposide,train,train,train,test,train
+DRCD,45297,0,etoposide,train,train,train,test,train
+DRCD,45311,0,etoposide,train,train,train,test,train
+DRCD,45357,0,etoposide,train,train,train,test,train
+DRCD,45377,0,etoposide,train,train,train,test,train
+DRCD,45514,0,etoposide,train,train,train,test,train
+DRCD,45522,0,etoposide,train,train,train,test,train
+DRCD,45531,0,etoposide,train,train,train,test,train
+DRCD,45546,0,etoposide,train,train,train,test,train
+DRCD,45553,0,etoposide,train,train,train,test,train
+DRCD,45568,0,etoposide,train,train,train,test,train
+DRCD,45575,0,etoposide,train,train,train,test,train
+DRCD,45583,0,etoposide,train,train,train,test,train
+DRCD,45588,0,etoposide,train,train,train,test,train
+DRCD,45590,0,etoposide,train,train,train,test,train
+DRCD,45601,0,etoposide,train,train,train,test,train
+DRCD,45614,0,etoposide,train,train,train,test,train
+DRCD,45623,0,etoposide,train,train,train,test,train
+DRCD,45663,0,etoposide,train,train,train,test,train
+DRCD,45668,0,etoposide,train,train,train,test,train
+DRCD,46013,1,ethionamide,test,train,train,train,train
+DRCD,46018,1,ethionamide,test,train,train,train,train
+DRCD,46023,1,ethionamide,test,train,train,train,train
+DRCD,46029,1,ethionamide,test,train,train,train,train
+DRCD,46032,1,ethionamide,test,train,train,train,train
+DRCD,46035,1,ethionamide,test,train,train,train,train
+DRCD,46038,1,ethionamide,test,train,train,train,train
+DRCD,46048,1,ethionamide,test,train,train,train,train
+DRCD,46060,1,ethionamide,test,train,train,train,train
+DRCD,46071,1,ethionamide,test,train,train,train,train
+DRCD,46073,1,ethionamide,test,train,train,train,train
+DRCD,46078,1,ethionamide,test,train,train,train,train
+DRCD,46080,1,ethionamide,test,train,train,train,train
+DRCD,46082,1,ethionamide,test,train,train,train,train
+DRCD,46089,1,ethionamide,test,train,train,train,train
+DRCD,46111,1,ethionamide,test,train,train,train,train
+DRCD,46117,1,ethionamide,test,train,train,train,train
+DRCD,46123,1,ethionamide,test,train,train,train,train
+DRCD,46126,1,ethionamide,test,train,train,train,train
+DRCD,46136,1,ethionamide,test,train,train,train,train
+DRCD,46138,1,ethionamide,test,train,train,train,train
+DRCD,46142,1,ethionamide,test,train,train,train,train
+DRCD,46150,1,ethionamide,test,train,train,train,train
+DRCD,46357,1,ethionamide,test,train,train,train,train
+DRCD,46358,1,ethionamide,test,train,train,train,train
+DRCD,46360,1,ethionamide,test,train,train,train,train
+DRCD,46365,1,ethionamide,test,train,train,train,train
+DRCD,46374,1,ethionamide,test,train,train,train,train
+DRCD,46378,1,ethionamide,test,train,train,train,train
+DRCD,46380,1,ethionamide,test,train,train,train,train
+DRCD,46389,1,ethionamide,test,train,train,train,train
+DRCD,46397,1,ethionamide,test,train,train,train,train
+DRCD,46400,1,ethionamide,test,train,train,train,train
+DRCD,46403,1,ethionamide,test,train,train,train,train
+DRCD,46406,1,ethionamide,test,train,train,train,train
+DRCD,46409,1,ethionamide,test,train,train,train,train
+DRCD,46412,1,ethionamide,test,train,train,train,train
+DRCD,46731,1,methapyrilene,train,val,train,test,train
+DRCD,46753,1,thioacetamide,train,train,train,test,train
+DRCD,46756,1,thioacetamide,train,train,train,test,train
+DRCD,46759,1,thioacetamide,train,train,train,test,train
+DRCD,46765,1,thioacetamide,train,train,train,test,train
+DRCD,46769,1,thioacetamide,train,train,train,test,train
+DRCD,46774,1,thioacetamide,train,train,train,test,train
+DRCD,46781,1,thioacetamide,train,train,train,test,train
+DRCD,46783,1,thioacetamide,train,train,train,test,train
+DRCD,46787,1,thioacetamide,train,train,train,test,train
+DRCD,46792,1,thioacetamide,train,train,train,test,train
+DRCD,46795,1,thioacetamide,train,train,train,test,train
+DRCD,46800,1,thioacetamide,train,train,train,test,train
+DRCD,46805,1,methapyrilene,train,val,train,test,train
+DRCD,46806,1,thioacetamide,train,train,train,test,train
+DRCD,46811,1,thioacetamide,train,train,train,test,train
+DRCD,46815,1,thioacetamide,train,train,train,test,train
+DRCD,46820,1,thioacetamide,train,train,train,test,train
+DRCD,46823,1,thioacetamide,train,train,train,test,train
+DRCD,46826,1,thioacetamide,train,train,train,test,train
+DRCD,46833,1,thioacetamide,train,train,train,test,train
+DRCD,46835,1,thioacetamide,train,train,train,test,train
+DRCD,46838,1,methapyrilene,train,val,train,test,train
+DRCD,46839,1,thioacetamide,train,train,train,test,train
+DRCD,46847,1,methapyrilene,train,val,train,test,train
+DRCD,46853,1,methapyrilene,train,val,train,test,train
+DRCD,46860,1,methapyrilene,train,val,train,test,train
+DRCD,46880,1,methapyrilene,train,val,train,test,train
+DRCD,46891,1,methapyrilene,train,val,train,test,train
+DRCD,46896,1,methapyrilene,train,val,train,test,train
+DRCD,46908,1,methapyrilene,train,val,train,test,train
+DRCD,46919,1,methapyrilene,train,val,train,test,train
+DRCD,46924,1,methapyrilene,train,val,train,test,train
+DRCD,46935,1,methapyrilene,train,val,train,test,train
+DRCD,46950,1,methapyrilene,train,val,train,test,train
+DRCD,46955,1,methapyrilene,train,val,train,test,train
+DRCD,46961,1,methapyrilene,train,val,train,test,train
+DRCD,46978,1,methapyrilene,train,val,train,test,train
+DRCD,46989,1,methapyrilene,train,val,train,test,train
+DRCD,46994,1,methapyrilene,train,val,train,test,train
+DRCD,47004,1,methapyrilene,train,val,train,test,train
+DRCD,47669,0,ethanol,test,train,train,train,train
+DRCD,47678,0,ethanol,test,train,train,train,train
+DRCD,47762,0,ethanol,test,train,train,train,train
+DRCD,47817,0,ethanol,test,train,train,train,train
+DRCD,47820,0,ethanol,test,train,train,train,train
+DRCD,47851,0,ethanol,test,train,train,train,train
+DRCD,47854,0,ethanol,test,train,train,train,train
+DRCD,47882,0,ethanol,test,train,train,train,train
+DRCD,48010,0,ethanol,test,train,train,train,train
+DRCD,48013,0,ethanol,test,train,train,train,train
+DRCD,48018,0,ethanol,test,train,train,train,train
+DRCD,48020,0,ethanol,test,train,train,train,train
+DRCD,48021,0,ethanol,test,train,train,train,train
+DRCD,48035,0,ethanol,test,train,train,train,train
+DRCD,48042,0,ethanol,test,train,train,train,train
+DRCD,48044,0,ethanol,test,train,train,train,train
+DRCD,48053,0,ethanol,test,train,train,train,train
+DRCD,48054,0,ethanol,test,train,train,train,train
+DRCD,48055,0,ethanol,test,train,train,train,train
+DRCD,48062,0,ethanol,test,train,train,train,train
+DRCD,48069,0,ethanol,test,train,train,train,train
+DRCD,48074,0,ethanol,test,train,train,train,train
+DRCD,48077,0,ethanol,test,train,train,train,train
+DRCD,48079,0,ethanol,test,train,train,train,train
+DRCD,63435,1,methylene dianiline,train,train,test,train,train
+DRCD,63485,1,methylene dianiline,train,train,test,train,train
+DRCD,63489,1,methylene dianiline,train,train,test,train,train
+DRCD,63497,1,methylene dianiline,train,train,test,train,train
+DRCD,63505,1,methylene dianiline,train,train,test,train,train
+DRCD,63509,1,methylene dianiline,train,train,test,train,train
+DRCD,63517,1,methylene dianiline,train,train,test,train,train
+DRCD,63526,1,methylene dianiline,train,train,test,train,train
+DRCD,63530,1,methylene dianiline,train,train,test,train,train
+DRCD,63534,1,methylene dianiline,train,train,test,train,train
+DRCD,63538,1,methylene dianiline,train,train,test,train,train
+DRCD,63550,1,methylene dianiline,train,train,test,train,train
+DRCD,63553,1,methylene dianiline,train,train,test,train,train
+DRCD,63566,1,methylene dianiline,train,train,test,train,train
+DRCD,63571,1,methylene dianiline,train,train,test,train,train
+DRCD,63575,1,methylene dianiline,train,train,test,train,train
+DRCD,63579,1,methylene dianiline,train,train,test,train,train
+DRCD,63595,1,methylene dianiline,train,train,test,train,train
+DRCD,63598,1,methylene dianiline,train,train,test,train,train
+DRCD,63605,1,methylene dianiline,train,train,test,train,train
+DRCD,63609,1,methylene dianiline,train,train,test,train,train
+DRCD,63612,1,methylene dianiline,train,train,test,train,train
+DRCD,63620,1,methylene dianiline,train,train,test,train,train
+DRCD,63672,1,methylene dianiline,train,train,test,train,train
+DRCD,63687,1,methylene dianiline,train,train,test,train,train
+DRCD,63691,1,methylene dianiline,train,train,test,train,train
+DRCD,63760,1,methylene dianiline,train,train,test,train,train
+DRCD,63768,1,methylene dianiline,train,train,test,train,train
+DRCD,63777,1,methylene dianiline,train,train,test,train,train
+DRCD,63855,1,methylene dianiline,train,train,test,train,train
+DRCD,63865,1,methylene dianiline,train,train,test,train,train
+DRCD,63941,1,methylene dianiline,train,train,test,train,train
+DRCD,63944,1,methylene dianiline,train,train,test,train,train
+DRCD,63952,1,methylene dianiline,train,train,test,train,train
+DRCD,65615,1,acetamide,val,test,val,val,val
+DRCD,65622,1,acetamide,val,test,val,val,val
+DRCD,65626,1,acetamide,val,test,val,val,val
+DRCD,65630,1,acetamide,val,test,val,val,val
+DRCD,65638,1,acetamide,val,test,val,val,val
+DRCD,65654,1,acetamide,val,test,val,val,val
+DRCD,65662,1,acetamide,val,test,val,val,val
+DRCD,65666,1,acetamide,val,test,val,val,val
+DRCD,65674,1,acetamide,val,test,val,val,val
+DRCD,65686,1,acetamide,val,test,val,val,val
+DRCD,65698,1,acetamide,val,test,val,val,val
+DRCD,65706,1,acetamide,val,test,val,val,val
+DRCD,65710,1,acetamide,val,test,val,val,val
+DRCD,65714,1,acetamide,val,test,val,val,val
+DRCD,65725,1,acetamide,val,test,val,val,val
+DRCD,65733,1,acetamide,val,test,val,val,val
+DRCD,65745,1,acetamide,val,test,val,val,val
+DRCD,65749,1,acetamide,val,test,val,val,val
+DRCD,65761,1,acetamide,val,test,val,val,val
+DRCD,70092,1,methapyrilene,train,val,train,test,train
+DRCD,70513,0,ethinylestradiol,test,val,val,val,val
+DRCD,70738,0,etoposide,train,train,train,test,train
+DRCD,70739,0,etoposide,train,train,train,test,train
+DRCD,70929,1,methylene dianiline,train,train,test,train,train
+DRCD,70964,1,acetamide,val,test,val,val,val
+DRCD,70965,1,acetamide,val,test,val,val,val
+DRCD,70980,0,cyclophosphamide,train,train,test,train,train
+DRCD,71007,1,WY-14643,train,train,train,train,test
+DRCD,71285,1,methylene dianiline,train,train,test,train,train
+DRCD,8317,1,WY-14643,train,train,train,train,test
+DRCD,8325,1,WY-14643,train,train,train,train,test
+DRCD,8327,1,WY-14643,train,train,train,train,test
+DRCD,8366,1,WY-14643,train,train,train,train,test
+DRCD,8370,1,WY-14643,train,train,train,train,test
+DRCD,8376,1,WY-14643,train,train,train,train,test
+DRCD,8381,1,WY-14643,train,train,train,train,test
+DRCD,8402,1,WY-14643,train,train,train,train,test
+DRCD,8409,1,WY-14643,train,train,train,train,test
+DRCD,8414,1,WY-14643,train,train,train,train,test
+DRCD,8416,1,WY-14643,train,train,train,train,test
+DRCD,8428,1,WY-14643,train,train,train,train,test
+DRCD,8430,1,WY-14643,train,train,train,train,test
+DRCD,8433,1,WY-14643,train,train,train,train,test

@@ -4,29 +4,30 @@
 
 > Data release for a manuscript prepared for *Pattern Recognition*
 
-DILInet classifies the etiology of a liver lesion (drug-induced versus spontaneous) from a paired whole-slide image and a transcriptomic profile. This repository publishes the curated sample identifiers and labels for the two cohorts used in the study. Whole-slide images, microarray CEL files, patch features, knowledge graphs, fold assignments, model code, and trained weights are not included.
+DILInet classifies the etiology of a liver lesion (drug-induced versus spontaneous) from a paired whole-slide image and a transcriptomic profile. This repository publishes the curated sample identifiers, labels, and five-fold compound-holdout assignments for the two cohorts used in the study. Whole-slide images, microarray CEL files, patch features, knowledge graphs, model code, and trained weights are not included.
 
 ---
 
-## Files
+## File
 
-| File | Samples | Drug-induced (`1`) | Spontaneous (`0`) | Compounds |
-|------|---------|--------------------|-------------------|-----------|
-| [`DHLD_label.csv`](DHLD_label.csv) | 617 | 377 | 240 | 83 |
-| [`DRCD_label.csv`](DRCD_label.csv) | 405 | 215 | 190 | 17 |
+The release is one table, [`fold_assignments.csv`](fold_assignments.csv). It has 1,022 rows: 617 DHLD slides, then 405 DRCD slides. One row is one slide.
 
-Both files have the same two columns and no header beyond the first row:
+| Dataset | Samples | Drug-induced (`1`) | Spontaneous (`0`) | Compounds |
+|---------|---------|--------------------|-------------------|-----------|
+| DHLD | 617 | 377 | 240 | 83 |
+| DRCD | 405 | 215 | 190 | 17 |
 
 ```text
-slide_id,label
-51532,1
-25598,0
+dataset,slide_id,label,compound_name,fold_0,fold_1,fold_2,fold_3,fold_4
+DHLD,10109,0,glibenclamide,train,test,train,train,train
 ```
 
 - `slide_id` is the Open TG-GATEs liver-slide identifier. The matching image file is `{slide_id}.svs`.
 - `label` is the etiology. `1` is drug-induced and `0` is spontaneous.
+- `compound_name` is the compound kept inside one split. Dose, duration, and `EXP_ID` are not columns; they follow the Open TG-GATEs annotation of the same slide.
+- `fold_0` through `fold_4` are the five folds. Each cell is `train`, `val`, or `test`. `val` is the validation split used to choose that fold's decision threshold.
 
-Each row is one strictly paired sample: one H&E whole-slide image and one Affymetrix profile from the same animal. No pair is imputed. Compound name, dose, duration, `EXP_ID`, and fold assignment are not columns of these tables; they are recovered from the Open TG-GATEs annotation of the same slide.
+Each row is one strictly paired sample: one H&E whole-slide image and one Affymetrix profile from the same animal. No pair is imputed. Image paths, microarray files, and knowledge-graph edges are not in this file.
 
 ---
 
@@ -48,11 +49,24 @@ The images and CEL files are distributed by Open TG-GATEs, not by this repositor
 
 ---
 
-## How these lists are evaluated
+## Fold assignments
 
-The manuscript uses five-fold compound hold-out. Every slide of a compound, including every dose, duration, and `EXP_ID`, is placed in exactly one of train, validation, or test. The target ratio is about 7:1:2, and the exact counts follow compound boundaries. Expression normalization, the 1000 highly variable genes, and the KEGG–STRING graph are fit on the training compounds of that fold only.
+The manuscript uses five-fold compound hold-out. Every slide of a compound, including every dose, duration, and `EXP_ID`, is placed in exactly one of train, validation, or test. The target ratio is about 7:1:2, and the exact counts follow compound boundaries. Expression normalization, the 1000 highly variable genes, and the KEGG–STRING graph are fit on the training compounds of that fold only. Those matrices and graphs are not in this release.
 
-The two CSV files identify the samples that enter this protocol. They do not store the fold each slide was assigned to.
+Slides of the same `compound_name` share one split inside a fold. Each slide is in `test` in exactly one fold, and the five test sets cover the cohort.
+
+| Dataset | Fold | Train | Validation | Test |
+|---------|------|-------|------------|------|
+| DHLD | 0 | 434 | 59 | 124 |
+| DHLD | 1 | 438 | 56 | 123 |
+| DHLD | 2 | 437 | 57 | 123 |
+| DHLD | 3 | 438 | 56 | 123 |
+| DHLD | 4 | 437 | 56 | 124 |
+| DRCD | 0 | 294 | 36 | 75 |
+| DRCD | 1 | 270 | 50 | 85 |
+| DRCD | 2 | 281 | 50 | 74 |
+| DRCD | 3 | 270 | 50 | 85 |
+| DRCD | 4 | 269 | 50 | 86 |
 
 ---
 
@@ -92,7 +106,7 @@ Training and inference code are not part of this release.
 ```bibtex
 @article{zhang2026dilinet,
   title  = {DILInet: Gated fusion of whole-slide images and transcriptomics for drug-induced liver injury etiology classification},
-  author = {Zhang, Guangyu and Wang, Hong and Cheng, Xingfu and Zhao, Jun and Sheng, Xiehuang and Sun, Yanshen},
+  author = {Zhang, Guangyu and Wang, Hong and Cheng, Xingfu and Zhao, Jun and Sheng, Xiehuang and Yu, Jianger},
   year   = {2026},
   note   = {Manuscript in preparation for Pattern Recognition}
 }
@@ -104,7 +118,7 @@ Training and inference code are not part of this release.
 
 - **Hong Wang** (corresponding author) — 111052@sdnu.edu.cn  
   School of Computer Science and Artificial Intelligence, Shandong Normal University
-- **Yanshen Sun** (corresponding author) — yansh93@vt.edu  
+- **Jianger Yu** (corresponding author) — jiangeryu@gmail.com  
   Department of Computer Science, Virginia Tech
 
 ---
@@ -113,10 +127,10 @@ Training and inference code are not part of this release.
 
 We gratefully acknowledge the Open TG-GATEs database for the histopathology whole-slide images and transcriptomic profiles used in this study.
 
-This work was supported by the National Natural Science Foundation of China (62072290, 62372279, 62573277); the Natural Science Foundation of Shandong Province (ZR2025QB62, ZR2023MF119); and the Jinan “20 new colleges and universities” Funded Project (202228110).
+This work was supported by the National Natural Science Foundation of China (61672329, 62072290, 62573277), and the Jinan “20 new colleges and universities” Funded Project (202228110).
 
 ---
 
 ## License
 
-Please follow the Open TG-GATEs terms of use for the original whole-slide images and microarray files. The curated identifier and label tables in this repository are released for research use.
+Please follow the Open TG-GATEs terms of use for the original whole-slide images and microarray files. The curated identifier, label, and fold-assignment table in this repository is released for research use.
