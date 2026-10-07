@@ -38,7 +38,7 @@ Both cohorts are built from paired rat liver slides and Affymetrix profiles in [
 | Dataset | Question | Inclusion |
 |---------|----------|-----------|
 | **DHLD** | Can etiology be separated when the diagnosis matches? | Slide label: any treatment-related liver finding (`SP_FLG` false) is drug-induced. If every finding is spontaneous, the label follows the highest-grade finding and is spontaneous. A compound need not have a single label. |
-| **DRCD** | Does fusion still help for mechanistically diverse reference compounds? | The same slide rule, then one label per compound: the majority of its slides. More spontaneous slides makes the whole compound spontaneous; more drug-induced slides makes it drug-induced. A minority slide keeps the compound label. |
+| **DRCD** | Does fusion still help for mechanistically diverse reference compounds? | Separate cohort. The same slide rule, then one label per compound from the majority of its own slides. A minority slide keeps that label. |
 
 ### Raw data
 
@@ -79,7 +79,7 @@ The numbers below are the manuscript results: mean ± sample standard deviation 
 | DHLD | 0.8138 ± 0.1017 | 0.8356 ± 0.0747 | 0.8113 ± 0.1077 | 0.6756 ± 0.1301 |
 | DRCD | 0.7506 ± 0.1695 | 0.7549 ± 0.1566 | 0.7209 ± 0.2116 | 0.5521 ± 0.2774 |
 
-DILInet has the highest mean accuracy, balanced accuracy, weighted F1, and Matthews correlation coefficient on both datasets, among seven pathology models and five transcriptomic models trained on the same splits. DRCD is the harder cohort: each test fold removes a larger share of the 17 compounds, and the fold-to-fold spread is wider.
+DILInet has the highest mean accuracy, balanced accuracy, weighted F1, and Matthews correlation coefficient on both datasets, among seven pathology models and five transcriptomic models trained on the same splits. DRCD is the harder cohort: each test fold holds out 3 or 4 of the 17 compounds, and the fold-to-fold spread is wider.
 
 ---
 
