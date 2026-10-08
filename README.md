@@ -24,21 +24,21 @@ DHLD,10109,0,glibenclamide,train,test,train,train,train
 
 - `slide_id` is the Open TG-GATEs liver-slide identifier. The matching image file is `{slide_id}.svs`.
 - `label` is the etiology. `1` is drug-induced and `0` is spontaneous.
-- `compound_name` is the compound kept inside one split. Dose, duration, and `EXP_ID` are not columns; they follow the Open TG-GATEs annotation of the same slide.
+- `compound_name` is the treatment compound. All slides of a compound share one split within a fold.
 - `fold_0` through `fold_4` are the five folds. Each cell is `train`, `val`, or `test`. `val` is the validation split used to choose that fold's decision threshold.
 
-Each row is one strictly paired sample: one H&E whole-slide image and one Affymetrix profile from the same animal. No pair is imputed. Image paths, microarray files, and knowledge-graph edges are not in this file.
+Each row is one strictly paired sample: one H&E whole-slide image and one Affymetrix profile from the same animal. Image paths, microarray files, and knowledge-graph edges are not in this file.
 
 ---
 
 ## Cohorts
 
-Both cohorts are built from paired rat liver slides and Affymetrix profiles in [Open TG-GATEs](https://toxico.nibiohn.go.jp/english/). `SP_FLG` marks a recorded lesion as spontaneous or drug-induced.
+Both cohorts are built from paired rat liver slides and Affymetrix profiles in [Open TG-GATEs](https://toxico.nibiohn.go.jp/english/).
 
-| Dataset | Question | Inclusion |
-|---------|----------|-----------|
-| **DHLD** | Can etiology be separated when the diagnosis matches? | Slide label: any treatment-related liver finding (`SP_FLG` false) is drug-induced. If every finding is spontaneous, the label follows the highest-grade finding and is spontaneous. A compound need not have a single label. |
-| **DRCD** | Does fusion still help for mechanistically diverse reference compounds? | Separate cohort. The same slide rule, then one label per compound from the majority of its own slides. A minority slide keeps that label. |
+| Dataset | Samples | Label |
+|---------|---------|-------|
+| **DHLD** | 617 samples from 83 compounds (377 drug-induced, 240 spontaneous) | Slide-level etiology. A compound may carry both labels. |
+| **DRCD** | 405 samples from 17 compounds (215 drug-induced, 190 spontaneous) | Separate cohort. Every slide of a compound receives that compound's majority label. |
 
 ### Raw data
 
@@ -51,7 +51,7 @@ The images and CEL files are distributed by Open TG-GATEs, not by this repositor
 
 ## Fold assignments
 
-The manuscript uses five-fold compound hold-out. Every slide of a compound, including every dose, duration, and `EXP_ID`, is placed in exactly one of train, validation, or test. The target ratio is about 7:1:2, and the exact counts follow compound boundaries. Expression normalization, the 1000 highly variable genes, and the KEGG–STRING graph are fit on the training compounds of that fold only. Those matrices and graphs are not in this release.
+The manuscript uses five-fold compound hold-out. All slides of a compound are placed in one of train, validation, or test. Expression normalization, the 1000 highly variable genes, and the KEGG–STRING graph are fit on the training compounds of that fold only. Those matrices and graphs are not in this release.
 
 Slides of the same `compound_name` share one split inside a fold. Each slide is in `test` in exactly one fold, and the five test sets cover the cohort.
 
@@ -79,7 +79,7 @@ The numbers below are the manuscript results: mean ± sample standard deviation 
 | DHLD | 0.8138 ± 0.1017 | 0.8356 ± 0.0747 | 0.8113 ± 0.1077 | 0.6756 ± 0.1301 |
 | DRCD | 0.7506 ± 0.1695 | 0.7549 ± 0.1566 | 0.7209 ± 0.2116 | 0.5521 ± 0.2774 |
 
-DILInet has the highest mean accuracy, balanced accuracy, weighted F1, and Matthews correlation coefficient on both datasets, among seven pathology models and five transcriptomic models trained on the same splits. DRCD is the harder cohort: each test fold holds out 3 or 4 of the 17 compounds, and the fold-to-fold spread is wider.
+DILInet has the highest mean accuracy, balanced accuracy, weighted F1, and Matthews correlation coefficient on both datasets, among seven pathology models and five transcriptomic models trained on the same splits.
 
 ---
 
@@ -87,7 +87,7 @@ DILInet has the highest mean accuracy, balanced accuracy, weighted F1, and Matth
 
 DILInet trains three parts jointly:
 
-1. **APHEnet** selects training patches by the predictive entropy of the fused classifier, then aggregates the selected bag with multi-branch MIL attention and stochastic top-\(K\) instance masking. Patch selection uses both modalities and does not require patch labels.
+1. **APHEnet** selects training patches by the predictive entropy of the fused classifier, then aggregates the selected bag with multi-branch MIL attention and stochastic top-\(K\) instance masking. Patch selection uses both modalities.
 2. **KGDEnet** encodes the transcriptome with a Transformer. A KEGG–STRING graph built inside the training fold biases self-attention and propagates hidden states along gene–gene edges.
 3. **Gated cross-modal interaction** exchanges information between the two sample-level vectors through bidirectional projections and learnable gates, then classifies etiology with an MLP.
 
